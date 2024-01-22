@@ -19,13 +19,13 @@ To get started with EduLinker, follow these steps:
    ```bash
    git clone https://github.com/your-username/edulinker.git
    cd edulinker
-2. **Install dependencies
+2. **Install dependencies:**
     ```bash
    cd client
    npm i
    cd server
    npm i
-3. **Run the Application
+3. **Run the Application:**
    ```bash
    cd client
    npm run dev
