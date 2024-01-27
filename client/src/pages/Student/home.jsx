@@ -1,8 +1,8 @@
 import React from 'react';
-import BasicNavbar from '../../components/navbar';
+import BasicNavbar from '../../components/StudentNavbar';
 import './style.css';
 
-const Home = () => {
+export const Home = () => {
   return (
     <>
       <BasicNavbar />
@@ -10,4 +10,3 @@ const Home = () => {
     </>
   );
 };
-export default Home;
