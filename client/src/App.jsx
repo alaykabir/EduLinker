@@ -1,12 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './pages/Student/home';
+import { Home } from './pages/Student/Home';
+import { Gradesheet } from './pages/Student/Gradesheet';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Onboarding from './pages/Onboarding';
-import { Gradesheet } from './pages/Student/gradesheet';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 
 function App() {
   return (
