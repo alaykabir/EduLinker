@@ -8,7 +8,7 @@ function BasicNavbar() {
     <Navbar expand="md" className="bg-dark navbar-dark">
       <Container fluid className="mx-0 p-2">
         <Navbar.Brand href="/student" className="mtop-0">
-          React-Bootstrap
+          Student
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
