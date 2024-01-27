@@ -1,9 +1,12 @@
-import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import Onboarding from "./pages/Onboarding";
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/Student/home';
+import Login from './pages/Login';
+import Register from './pages/Register';
+import Onboarding from './pages/Onboarding';
+import { Gradesheet } from './pages/Student/gradesheet';
+
+
 function App() {
   return (
     <BrowserRouter>
@@ -11,7 +14,8 @@ function App() {
         <Route path="/" element={<Onboarding />} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/home" element={<Home />} />
+        <Route path="/student" element={<Home />} />
+        <Route path="/student/gradesheet" element={<Gradesheet />} />
       </Routes>
     </BrowserRouter>
   );
