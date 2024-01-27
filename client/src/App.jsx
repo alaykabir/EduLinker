@@ -5,6 +5,7 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import Onboarding from './pages/Onboarding';
 import { Gradesheet } from './pages/Student/gradesheet';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
