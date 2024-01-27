@@ -1,6 +1,8 @@
 import "./onBoarding.css";
+import { Link, useNavigate } from "react-router-dom";
 
 function onBoarding() {
+  const navigate = useNavigate();
   return (
     <>
       <div className="wrap">
@@ -16,12 +18,14 @@ function onBoarding() {
             <p className="tagline">Teacher hai ya Student hai?</p>
             <div className="btn-wrap">
               <div className="btn download-btn">
-                <a href="">For Teachers</a>
+                <Link to="/login" state={{ role: "teacher" }}>
+                  For Teachers
+                </Link>
               </div>
               <div className="btn demo-btn">
-                <a target="_blank" href="">
+                <Link to="/login" state={{ role: "student" }}>
                   For Students
-                </a>
+                </Link>
               </div>
             </div>
           </div>
